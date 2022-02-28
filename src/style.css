@@ -1,0 +1,91 @@
+body{
+    background-image: url('img.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    color: white;
+    width:100vw;
+    height:100vh;
+    font-family:Courier;
+    font-size: 16px;
+}
+#container{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    height: 50%;
+    font-family:Courier ;
+}
+form{
+    background-color: #fa5959;
+    width: 50%;
+    /* height: 100%; */
+    padding: 50px;
+    border-radius: 40px;   
+}
+p{
+    margin: -1% 0% 3% 20%;
+}
+
+.form-group{
+    margin-left: 150px;
+    width: 300px;
+    height: 30px;
+}
+.form-group1{
+    margin-left: 24%;
+    width: 300px;
+    height: 30px;
+}
+.form-group2{
+    margin-left: 14%;
+    width: 300px;
+    height: 30px;
+}
+/** margin is space within.**/
+input{
+    margin-bottom: 20px;
+    padding-right: 70px;
+    align-items: center;
+}
+/**.validation{
+    margin-top: -10%;
+    margin-left: 20%;
+    width: 300px;
+    height: 30px;
+}**/
+h4{
+    background-color: white;
+    color: #fa5959;
+    margin: -5% 0% 5% 19%;
+    width: 300px;
+    height: 20px;
+    padding:1% 0% 0% 5%;
+
+}
+span.red{
+    color: red;
+}
+span{
+    color: blue;
+}
+
+.but{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+   /** margin : 10px;**/
+}
+[type= 'email']{
+    border: 5px solid red;
+}
+button{
+    margin: auto;
+    height: 40px;
+    width: 300px;
+    background-color:#fa5959 ;
+    color: white;
+    border-radius: 6px;
+    border-color: white;
+    padding-top: 10px;
+   }
